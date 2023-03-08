@@ -1,0 +1,33 @@
+{
+    "slug": "magick-widget",
+    "pluginId": 411,
+    "buildId": 446,
+    "entryPoints": {
+        "adminPages": [
+            "magick-settings"
+        ],
+        "blocks": [
+            "magick-chat-widget"
+        ]
+    },
+    "buildIncludes": [
+        "magick-widget.php",
+        "readme.txt",
+        "php",
+        "vendor",
+        "build",
+        "inc",
+        "blocks/magick-chat-widget/init.php",
+        "admin/magick-settings/init.php"
+    ],
+    "buildSteps": {
+        "dev": [
+            "yarn",
+            "yarn start"
+        ],
+        "prod": [
+            "yarn",
+            "yarn build"
+        ]
+    }
+}

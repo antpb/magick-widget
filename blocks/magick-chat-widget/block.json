@@ -1,0 +1,36 @@
+{
+    "name": "magick-widget/magick-chat-widget",
+    "title": "Magick Chat Widget",
+    "description": "A connector for Magick.",
+    "attributes": {
+        "name": {
+            "type": "string",
+            "default": "Pixel"
+        },
+        "agentRoute": {
+            "type": "string",
+            "default": ""
+        },
+        "agentId": {
+            "type": "string",
+            "default": ""
+        },
+        "personality": {
+            "type": "string",
+            "default": "Cheerful etc."
+        },
+        "defaultMessage": {
+            "type": "string",
+            "default": "Hello there!"
+        }
+    },
+    "category": "widgets",
+    "apiVersion": 2,
+    "icon": "smiley",
+    "supports": {
+        "html": false
+    },
+    "editorScript": "file:../../build/block-magick-chat-widget.js",
+	"editorStyle": "file:../../build/block-magick-chat-widget.css",
+	"style": "file:../../build/block-magick-chat-widget.css"
+}
